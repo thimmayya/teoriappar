@@ -201,6 +201,10 @@ p, h1, h2, h3, h4, ol, li, ul, a {
 .appstore{
   border-radius:15px 15px 15px 15px;
   background-color:#ffffff !important;
+  h3{
+    color:#ffffff;
+    @include large-title();
+  }
   .columns.first{padding-right:10px !important;}
   .columns.last{padding-left:10px !important;}
   &.primary{

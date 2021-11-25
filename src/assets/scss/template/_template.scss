@@ -4,8 +4,16 @@
 
 // Load our custom font.
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
-p, h1, h2, h3, h4, ol, li, ul, a {
+
+p, h1, h2, h3, h4, ol, li, ul, a, tr, td, th {
   font-family: 'Nunito', sans-serif !important;
+  // Here we force the clients not allow word breaking with hyphens that normalize creates.
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+  hyphens: none !important;
+  word-wrap: none !important;
+  -webkit-hyphens: none !important;
+  -moz-hyphens: none !important;
 }
 
 @mixin large-title {

@@ -38,12 +38,12 @@ p, h1, h2, h3, h4, ol, li, ul, a, tr, td, th {
 }
 @mixin paragraph-small {
   font-size:16px;
-  line-height:19px;
+  line-height:22px;
   font-weight:400 !important;
 }
 @mixin paragraph-mini {
   font-size:14px;
-  line-height:16px;
+  line-height:22px;
   font-weight:300 !important;
 }
 
